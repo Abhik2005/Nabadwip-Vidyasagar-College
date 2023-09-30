@@ -100,16 +100,31 @@ html,body{
     color: #000;
 }
 .second_nav{
-    width: 100%;
+    width: 1215px;
     height: 40px;
     background-color: #029FB2;
     cursor: pointer;
-    position:sticky;
+    position: relative;
+    z-index: 9;
+}
+.header #icon1{
+    position: absolute;
+    top: 27.1%;
+    left: 9.5%;
+    color: #004670;
+    font-size: 20px;
+}
+.header #icon2{
+    position: absolute;
+    top: 27.1%;
+    right: 9.5%;
+    color: #004670;
+    font-size: 20px;
 }
 .second_nav ul{
     list-style: none;
     display: flex;
-    padding-left: 15px;
+    padding-left: 22px;
 }
 .second_nav ul li{
     width: fit-content;
@@ -434,15 +449,69 @@ html,body{
     justify-content: space-between;
 }
 .college_description1,.college_description3{
-    width: 20%;
+    width: 18%;
     height: 100%;
     background-color: #029FB2;
 }
+.college_description1>div,.college_description3>div{
+    width: 100%;
+    height: 12.5%;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.college_description1>div a,.college_description3>div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
 .college_description2{
-    width: 55%;
+    width: 60%;
     height: 100%;
     background-color: #fff;
     border: 1px solid #029FB2;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.clg_desc{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+}
+.clg_desc>div:nth-child(1){
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #029FB2;
+}
+.clg_desc>div:nth-child(2){
+    width: 100%;
+    padding: 0 20px;
+    padding-top: 25px;
+    line-height: 27px;
+}
+.clg_desc>div:nth-child(3){
+    width: 100%;
+    padding: 0 20px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    line-height: 27px;
+}
+.college_description2 ::-webkit-scrollbar-button{
+    display: none;
+}
+.college_description2::-webkit-scrollbar-thumb{
+    background: #029FB2;
+}
+.college_description2 p:nth-child(1){
+    font-size: 14px;
 }
 .priniciple_notice_description_outer_layer{
     width: 100%;
