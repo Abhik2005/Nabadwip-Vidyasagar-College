@@ -69,6 +69,9 @@ html,body{
    height: 65%;
    cursor: pointer;
 }
+.college_logo_part1 img:hover{
+    border: 1px dotted #029FB2;
+}
 .college_logo_part2{
     width: 50%;
     height: 100%;
@@ -116,15 +119,15 @@ html,body{
 }
 .header #icon1{
     position: absolute;
-    top: 27.1%;
-    left: 9.5%;
+    top: 24.4%;
+    left: 13.6%;
     color: #004670;
     font-size: 20px;
 }
 .header #icon2{
     position: absolute;
-    top: 27.1%;
-    right: 9.5%;
+    top: 24.4%;
+    right: 13.6%;
     color: #004670;
     font-size: 20px;
 }
@@ -151,6 +154,7 @@ html,body{
 .second_nav ul a{
     text-decoration: none;
     color: #fff;
+    font-size: 14px;
 }
 .second_nav ul li i{
     color: #fff;
@@ -176,9 +180,8 @@ html,body{
 .second_nav ul li:hover .sub_menu_1{
     display: block;
     position: absolute;
-    background-color: #029FB2;
     margin-top: 30px;
-    margin-left: -10px;
+    margin-left: -32px;
     text-align: start;
     width: 200px;
     height: 165px;
@@ -193,7 +196,9 @@ html,body{
     border-right: none;
     border-bottom: 1px solid #fff;
     width: 100%;
-    height: 25%;
+    height: 45px;
+    display: flex;
+    align-items: center;
 }
 .second_nav ul li:hover .sub_menu_1 ul li:nth-child(4){
     border-bottom: none;
@@ -204,9 +209,8 @@ html,body{
 .second_nav ul li:hover .sub_menu_2{
     display: block;
     position: absolute;
-    background-color: #029FB2;
     margin-top: 30px;
-    margin-left: -11px;
+    margin-left: -33px;
     width: 250px;
 }
 .second_nav ul li:hover .sub_menu_2 ul{
@@ -219,7 +223,9 @@ html,body{
     border-right: none;
     border-bottom: 1px solid #fff;
     width: 100%;
-    height: 2%;
+    height: 45px;
+    display: flex;
+    align-items: center;
 }
 .second_nav ul li:hover .sub_menu_2 ul li:nth-child(5){
     border-bottom: none;
@@ -230,9 +236,8 @@ html,body{
 .second_nav ul li:hover .sub_menu_3{
     display: block;
     position: absolute;
-    background-color: #029FB2;
     margin-top: 30px;
-    margin-left: -11px;
+    margin-left: -33px;
     width: 230px;
 }
 .second_nav ul li:hover .sub_menu_3 ul{
@@ -245,10 +250,151 @@ html,body{
     border-right: none;
     border-bottom: 1px solid #fff;
     width: 100%;
-    height: 8.33%;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.department_sub_menu_1{
+    display: none;
+}
+.sub_menu_3 ul li:hover .department_sub_menu_1{
+    display: block;
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 46px;
+    width: 250px;
+}
+.sub_menu_3 ul li:hover .department_sub_menu_1 ul{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.sub_menu_3 ul li:hover .department_sub_menu_1 ul li{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub_menu_3 ul li:hover .department_sub_menu_1 ul li:last-child{
+    border-bottom: none;
+}
+.ug_sub_menu_1{
+    display: none;
+}
+.department_sub_menu_1 ul li:hover .ug_sub_menu_1{
+    display: block;
+    position: absolute;
+    margin-top: 91px;
+    margin-left: 194px;
+    width: 250px;
+}
+.department_sub_menu_1 ul li:hover .ug_sub_menu_1 ul{
+    display: block;
+    width: 100%;
+}
+.department_sub_menu_1 ul li:hover .ug_sub_menu_1 ul li{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.science_sub_menu_1{
+    display: none;
+}
+.ug_sub_menu_1 ul li:hover .science_sub_menu_1{
+    display: block;
+    position: absolute;
+    margin-top: 305px;
+    margin-left: 195px;
+    width: 230px;
+    padding-top: 5px;
+}
+.ug_sub_menu_1 ul li:hover .science_sub_menu_1 ul{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+.ug_sub_menu_1 ul li:hover .science_sub_menu_1 ul li{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.arts_sub_menu_1{
+    display: none;
+}
+.ug_sub_menu_1 ul li:hover .arts_sub_menu_1{
+    display: block;
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 195px;
+    width: 230px;
+}
+.ug_sub_menu_1 ul li:hover .arts_sub_menu_1 ul{
+    display: block;
+    width: 100%;
+}
+.ug_sub_menu_1 ul li:hover .arts_sub_menu_1 ul li{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.commerce_sub_menu_1{
+    display: none;
+}
+.ug_sub_menu_1 ul li:hover .commerce_sub_menu_1{
+    display: block;
+    position: absolute;
+    margin-left: 195px;
+    width: 230px;
+}
+.ug_sub_menu_1 ul li:hover .commerce_sub_menu_1 ul{
+    display: block;
+    width: 100%;
+}
+.ug_sub_menu_1 ul li:hover .commerce_sub_menu_1 ul li{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.pg_sub_menu_1{
+    display: none;
+}
+.department_sub_menu_1 ul li:hover .pg_sub_menu_1{
+    display: block;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 195px;
+    width: 200px;
+}
+.department_sub_menu_1 ul li:hover .pg_sub_menu_1 ul{
+    display: block;
+    width: 100%;
+}
+.department_sub_menu_1 ul li:hover .pg_sub_menu_1 ul li{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.dodl_sub_menu_1{
+    display: none;
+}
+.pg_sub_menu_1 ul li:hover .dodl_sub_menu_1{
+    display: block;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 145px;
+    width: 200px;
+}
+.pg_sub_menu_1 ul li:hover .dodl_sub_menu_1 ul{
+    display: block;
+    width: 100%;
+}
+.pg_sub_menu_1 ul li:hover .dodl_sub_menu_1 ul li{
+    height: 45px;
+    display: flex;
+    align-items: center;
 }
 .sub_menu_4{
     display: none;
@@ -256,9 +402,8 @@ html,body{
 .second_nav ul li:hover .sub_menu_4{
     display: block;
     position: absolute;
-    background-color: #029FB2;
     margin-top: 30px;
-    margin-left: -11px;
+    margin-left: -33px;
     width: 180px;
 }
 .second_nav ul li:hover .sub_menu_4 ul{
@@ -268,7 +413,9 @@ html,body{
 }
 .second_nav ul li:hover .sub_menu_4 ul li{
     width: 100%;
-    height: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
     background-color: #029FB2;
     border-right: none;
 }
@@ -278,9 +425,8 @@ html,body{
 .second_nav ul li:hover .sub_menu_5{
     display: block;
     position: absolute;
-    background-color: #029FB2;
     margin-top: 30px;
-    margin-left: -11px;
+    margin-left: -33px;
 }
 .second_nav ul li:hover .sub_menu_5 ul{
     display: block;
@@ -292,6 +438,11 @@ html,body{
     height: fit-content;
     border-right: none;
     border-bottom: 1px solid #fff;
+    background-color: #029FB2;
+    height: 45px;
+    display: flex;
+    align-items: center;
+
 }
 .second_nav ul li:hover .sub_menu_5 ul li:last-child{
     border-bottom: none;
@@ -312,13 +463,12 @@ html,body{
 .second_nav ul li:hover .sub_menu_6{
     display: block;
     position: absolute;
-    background-color: #029FB2;
     margin-top: 30px;
-    margin-left: -10px;
+    margin-left: -33px;
 }
 .second_nav ul li:hover .sub_menu_6 ul{
     display: block;
-    width: 225px;
+    width: 250px;
     height: fit-content;
 }
 .second_nav ul li:hover .sub_menu_6 ul li{
@@ -326,6 +476,13 @@ html,body{
     height: fit-content;
     border-right: none;
     border-bottom: 1px solid #fff;
+    background-color: #029FB2;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.second_nav ul li:hover .sub_menu_6 ul li:last-child{
+    border-bottom: none;
 }
 .sub_menu_7{
     display: none;
@@ -333,9 +490,8 @@ html,body{
 .second_nav ul li:hover .sub_menu_7{
     display: block;
     position: absolute;
-    background-color: #029FB2;
     margin-top: 30px;
-    margin-left: -10px;
+    margin-left: -33px;
 }
 .second_nav ul li:hover .sub_menu_7 ul{
     display: block;
@@ -345,8 +501,15 @@ html,body{
 .second_nav ul li:hover .sub_menu_7 ul li{
     width: 100%;
     height: fit-content;
+    background-color: #029FB2;
     border-right: none;
     border-bottom: 1px solid #fff;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.second_nav ul li:hover .sub_menu_7 ul li:last-child{
+    border-bottom: none;
 }
 .sub_menu_8{
     display: none;
@@ -354,9 +517,8 @@ html,body{
 .second_nav ul li:hover .sub_menu_8{
     display: block;
     position: absolute;
-    background-color: #029FB2;
     margin-top: 30px;
-    margin-left: -11px;
+    margin-left: -33px;
     width: 200px;
 }
 .second_nav ul li:hover .sub_menu_8 ul{
@@ -369,7 +531,9 @@ html,body{
     border-right: none;
     border-bottom: 1px solid #fff;
     width: 100%;
-    height: 2%;
+    height: 45px;
+    display: flex;
+    align-items: center;
 }
 .second_nav ul li:hover .sub_menu_8 ul li:nth-child(5){
     border-bottom: none;
@@ -689,6 +853,7 @@ html,body{
     justify-content: center;
     flex-direction: column;
     background-color: #fff;
+    word-spacing: -1px;
 }
 .college_location_mail_etc{
     width: 100%;
@@ -713,6 +878,60 @@ html,body{
     display: flex;
     align-items: center;
     padding-left: 20px;
+}
+.map{
+    width: 80%;
+    height: 160px;
+    margin-top: 20px;
+    position: relative;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#map_link{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #029FB2;
+    padding: 5px 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px gray;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+#map_link:hover{
+    text-decoration: underline;
+}
+.keybord{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: lighter;
+    font-size: 15px;
+    position: absolute;
+    bottom: -1%;
+    left: 18%;
+    cursor: pointer;
+}
+.maps_data_terms{
+    width: 220px;
+    height: 10px;
+    font-size: 9px;
+    background-color: #dadada;
+    color: #000;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    position: absolute;
+    bottom: 1%;
+    right: 0%;
+    cursor: pointer;
 }
 .mail_visitor_box{
     width: 31%;
@@ -757,6 +976,19 @@ html,body{
     align-items: center;
     color: #fff;
     padding-left: 20px;
+}
+.total_hits{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    border: 1px solid #fff;
+    margin-top: 50px;
+    gap: 5px;
 }
 .quick_links{
     width: 31%;
