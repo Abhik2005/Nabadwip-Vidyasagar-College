@@ -94,7 +94,6 @@ html,body{
 }
 .call_of_paper_div a{
     text-decoration: none;
-    color: #000;
 }
 .online_admission_div{
     width: 190px;
@@ -107,7 +106,6 @@ html,body{
 }
 .online_admission_div a{
     text-decoration: none;
-    color: #000;
 }
 .second_nav{
     width: 1215px;
@@ -129,7 +127,7 @@ html,body{
     top: 24.4%;
     right: 13.6%;
     color: #004670;
-    font-size: 20px;
+    font-size: 18px;
 }
 .second_nav ul{
     list-style: none;
@@ -154,11 +152,12 @@ html,body{
 .second_nav ul a{
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 500;
 }
 .second_nav ul li i{
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
 }
 .second_nav ul li .up_arrow{
@@ -393,6 +392,101 @@ html,body{
 }
 .pg_sub_menu_1 ul li:hover .dodl_sub_menu_1 ul li{
     height: 45px;
+    display: flex;
+    align-items: center;
+}
+.staff_sub_menu_1{
+    display: none;
+}
+.sub_menu_3 ul li:hover .staff_sub_menu_1{
+    display: block;
+    position: absolute;
+    margin-top: 46px;
+    margin-left: 176px;
+    width: 200px;
+}
+.sub_menu_3 ul li:hover .staff_sub_menu_1 ul{
+    display: block;
+    width: 100%;
+}
+.sub_menu_3 ul li:hover .staff_sub_menu_1 ul li{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.sub_menu_3 ul li:hover .staff_sub_menu_1 ul li:last-child{
+    border-bottom: none;
+}
+.routine_sub_menu_1{
+    display: none;
+}
+.sub_menu_3 ul li:hover .routine_sub_menu_1{
+    display: block;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 176px;
+    width: 230px;
+}
+.sub_menu_3 ul li:hover .routine_sub_menu_1 ul{
+    display: block;
+    width: 100%;
+}
+.sub_menu_3 ul li:hover .routine_sub_menu_1 ul li{
+    height: 67.5px;
+    display: flex;
+    align-items: center;
+}
+.sub_menu_3 ul li:hover .routine_sub_menu_1 ul li:last-child{
+    border-bottom: none;
+}
+.distance_sub_menu_1{
+    display: none;
+}
+.sub_menu_3 ul li:hover .distance_sub_menu_1{
+    display: block;
+    position: absolute;
+    margin-top: 46px;
+    margin-left: 176px;
+    width: 200px;
+}
+.sub_menu_3 ul li:hover .distance_sub_menu_1 ul{
+    display: block;
+    width: 100%;
+}
+.sub_menu_3 ul li:hover .distance_sub_menu_1 ul li{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.sub_menu_3 ul li:hover .routine_sub_menu_1 ul li:last-child{
+    border-bottom: none;
+}
+.student_support_sub_menu_1{
+    display: none;
+}
+.sub_menu_5 ul li:hover .student_support_sub_menu_1{
+    display: block;
+    position: absolute;
+    margin-top: 246px;
+    margin-left: 160px;
+    width: 200px;
+}
+.sub_menu_5 ul li:hover .student_support_sub_menu_1 ul{
+    display: block;
+    width: 100%;
+}
+.sub_menu_5 ul li:hover .student_support_sub_menu_1 ul li{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.sub_menu_5 ul li:hover .student_support_sub_menu_1 ul li:nth-child(4){
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+.sub_menu_5 ul li:hover .student_support_sub_menu_1 ul li:nth-child(5){
+    height: 55px;
     display: flex;
     align-items: center;
 }
