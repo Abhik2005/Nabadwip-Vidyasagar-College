@@ -114,6 +114,18 @@ html,body{
     cursor: pointer;
     position: relative;
     z-index: 9;
+    display: flex;
+}
+.second_nav>i{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border: 2px solid #fff;
+    display: none;
 }
 .header #icon1{
     position: absolute;
