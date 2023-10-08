@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-    width: 1200px;
+    max-width: 70vw;
     box-shadow: 0 0 30px #dadada;
     display: flex;
     align-items: center;
