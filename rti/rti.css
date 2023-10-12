@@ -767,7 +767,7 @@ body {
     box-shadow: 0 0 30px #dadada;
 }
 
-.tender_main {
+.rti_main {
     width: 100%;
     height: 200px;
     display: flex;
@@ -778,7 +778,7 @@ body {
     padding-left: 15px;
 }
 
-.tender_heading {
+.rti_heading {
     width: 95%;
     height: 40px;
     background: linear-gradient(to right,
