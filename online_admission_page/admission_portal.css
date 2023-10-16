@@ -264,3 +264,97 @@ html,body{
 #footer_last_span{
     color: #fff;
 }
+@media (max-width: 800px) {
+    *{
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    html,body{
+        width: 100%;
+        height: 100%;
+    }
+    .page{
+        width: 100vw;
+        height: 100vh;
+    }
+    .main{
+        width: 100vw;
+        height: 95vh;
+    }
+    .main_left_part{
+        width: 37%;
+        height: 100%;
+    }
+    .main_left_part .heading_section{
+        width: 100%;
+        height: 100px;
+        font-size: 23px;
+        text-align: center;
+        line-height: 20px;
+    }
+    .main_left_part .main_section{
+        width: 100%;
+        height: calc( 100% - 100px -100px );
+    }
+    .section {
+        padding-left: 3px;
+        display: flex;
+        align-items: center;
+    }
+    .section a{
+        font-size: 13px;
+        text-align: left;
+    }
+    .main_right_part{
+        width: 63%;
+        height: 100%;
+    }
+    .main_right_part .helpline_part{
+        width: 100%;
+        height: 80px;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .main_right_part .header_part{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header_part a{
+        font-size: 12px;
+    }
+    #head_part{
+        width: 31%;
+        height: 100%;
+        text-align: center;
+    }
+    .main_part{
+        width: 100%;
+        height: calc(100% - 80px - 70px);
+    }
+    .ug_section{
+        width: 90%;
+    }
+    .ug_section a{
+        font-size: 18px;
+    }
+    .pg_section{
+        width: 90%;
+    }
+    .pg_section a{
+        font-size: 18px;
+    }
+    #underline{
+        width: 95%;
+    }
+    .footer{
+        width: 100vw;
+        height: 5vh;
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
