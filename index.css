@@ -1172,7 +1172,7 @@ html,body{
   }
   .college_logo_part1 img{
     width: 100%;
-    height: 70%;
+    height: 90%;
   }
   .college_logo_part2{
     display: flex;
@@ -1181,12 +1181,10 @@ html,body{
     margin-bottom: 10px;
   }
   .call_of_paper_div{
-    width: 100px;
-    height: 35px;
+    padding: 3px 5px;
   }
   .online_admission_div{
-    width: 180px;
-    height: 35px;
+    padding: 3px 5px;
   }
   .second_nav{
     width: 100vw;
