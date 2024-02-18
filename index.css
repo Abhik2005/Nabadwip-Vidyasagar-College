@@ -1143,3 +1143,178 @@ html,body{
     align-items: center;
     padding-left: 20px;
 }
+@media only screen and (max-width: 600px) {
+  .header{
+    width: 100vw;
+  }
+  .header>i{
+    display: none;
+  }
+  .first_nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    padding: 10px 0px;
+  }
+  .first_nav_elem:first-child{
+    font-size: 9.9px;
+}
+  .college_logo_part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+  }
+  .college_logo_part1{
+    width: 100%;
+  }
+  .college_logo_part1 img{
+    width: 100%;
+    height: 70%;
+  }
+  .college_logo_part2{
+    display: flex;
+    gap: 10px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+  }
+  .call_of_paper_div{
+    width: 100px;
+    height: 35px;
+  }
+  .online_admission_div{
+    width: 180px;
+    height: 35px;
+  }
+  .second_nav{
+    width: 100vw;
+  }
+  .second_nav ul{
+    display: none;
+  }
+  .second_nav>i{
+    display: block;
+    border: none;
+  }
+  .main{
+    width: 100vw;
+    overflow: hidden;
+  }
+  .slid_show_main_div{
+    height: 250px;
+  }
+  .slid_show_div{
+    height: 100%;
+  }
+  .slid_show_below_nav {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .slid_show_below_nav .nav_bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px 5px;
+    line-height: 12px;
+  }
+  .college_description_div_outer_layer{
+    height: auto;
+  }
+  .college_description{
+    display: flex;
+    flex-direction: column;
+    background-color: red
+    height: 100%;
+  }
+  .college_description1{
+    width: 100%;
+    height: 330px;
+    margin-bottom: 20px
+  }
+  .college_description2{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  .college_description3{
+    width: 100%;
+    height: 330px;
+    margin-bottom: 20px;
+  }
+  .priniciple_notice_description_outer_layer{
+    height: auto;
+  }
+  .priniciple_notice_description{
+    display: flex;
+    flex-direction: column;
+  }
+  .priniciple_notice_description1{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: 20px
+  }
+  .Principal_image_message{
+    letter-spacing: -1px;
+    
+  }
+  .Principal_image_message .div1{
+    width: 250px;
+    height: 200px;
+    
+  }
+  .Principal_image_message .div2{
+    
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-right: 0
+  }
+  .Principal_image_message .div2 p{
+    line-height: 15px;
+    font-size: 15.5px;
+    padding-top: 0;
+    margin-top: 5px;
+  }
+  .message p{
+    line-height: 16px;
+    font-size: 17px;
+  }
+  .priniciple_notice_description2{
+    width: 100%;
+    height: 450px;
+  }
+  .important_links_div_outer_layer{
+    height: auto;
+  }
+  .important_links{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer{
+    width: 100vw;
+    height: auto;
+  }
+  .college_location_mail_etc{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0px 15px;
+  }
+  .location{
+    width: 100%;
+  }
+  .map{
+    width: 100%;
+  }
+  .mail_visitor_box{
+    width: 100%;
+  }
+  .quick_links{
+    width: 100%;
+  }
+}
