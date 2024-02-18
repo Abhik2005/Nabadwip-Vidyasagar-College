@@ -1181,9 +1181,11 @@ html,body{
     margin-bottom: 10px;
   }
   .call_of_paper_div{
+    width: fit-content;
     padding: 3px 5px;
   }
   .online_admission_div{
+    width: fit-content;
     padding: 3px 5px;
   }
   .second_nav{
